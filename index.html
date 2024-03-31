@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container mx-auto ">
+                <a class="navbar-brand" href="#">Assignment</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="#">Chapter 15 - 20</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="mt-5">
+                <h3 class="text-center">Chapter # 15 to 20|Arrays : Its methods & for loops</h3>
+            </div>
+            <hr>
+        </div>
+        <div class="container my-5 d-flex ">
+            <div class="border border-dark p-4 rounded-1 text-center w-100 mx-3" id="original">
+                <div class="child d-flex">
+                    <input type="text" class="text" placeholder="Type your text here" style="width:100%;">
+                    <button id="clearBtn">Clear</button> <!-- Added id for clear button -->
+                </div>
+            </div>
+            <div class="border border-dark p-4 rounded-1 text-center w-100 mx-2"
+                style="background-color: rgb(3, 3, 59); color: white;" id="originalCities">
+                <!-- Changed id to originalCities -->
+                <p>1) Faisalabad</p>
+                <p>2) Lahore</p>
+                <p>3) Karachi</p>
+                <p>4) Multan</p>
+                <p>5) Kashmir</p>
+                <p>6) Sheikupura</p>
+                <p>7) Quetta</p>
+            </div>
+        </div>
+        <div class="container my-5 d-flex">
+            <div class="border border-dark p-3 rounded-1 text-center w-100 m-3">
+                <button class="bg-danger border border-danger text-bg-primary p-2 rounded-1 my-1" id="button1">Simple
+                    Alert</button>
+                <button class="bg-danger border border-danger text-bg-primary p-2 rounded-1 my-1" id="button2">Print
+                    Name</button>
+                <button class="bg-danger border border-danger text-bg-primary p-2 rounded-1 my-1" id="button3">Print
+                    all cities</button>
+                <button class="bg-danger border border-danger text-bg-primary p-2 rounded-1 my-1" id="button4">Add
+                    your city in list</button>
+                <button class="bg-danger border border-danger text-bg-primary p-2 rounded-1 my-1" id="button5">Generate
+                    Table</button>
+            </div>
+            <div class="border border-dark p-4 rounded-1 text-cente w-100 m-3" id="output"></div>
+        </div>
+    </main>
+    <footer class="footer p-3 text-light text-center">
+        © 2024. Assignment by <u> Muhammad Mubashar </u>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"> </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
